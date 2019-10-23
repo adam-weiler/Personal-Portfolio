@@ -1082,21 +1082,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .genric-btn.success {
-  color: #fff;
-  background: #4cd3e3;
-  border: 1px solid transparent;
+  font-size: 2em;
+  color: #4cd3e3;
+  background: #fff;
+  border: 1px solid #4cd3e3;
 }
 
 .genric-btn.success:hover {
-  color: #4cd3e3;
+  color: #fff;
   border: 1px solid #4cd3e3;
-  background: #fff;
+  background: #4cd3e3;
 }
 
 .genric-btn.success-border {
   color: #4cd3e3;
-  border: 1px solid #4cd3e3;
   background: #fff;
+  border: 1px solid #4cd3e3;
 }
 
 .genric-btn.success-border:hover {
@@ -1106,25 +1107,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .genric-btn.info {
-  color: #fff;
+  font-size: 2em;
+  color: #59e34c;
   /* background: #38a4ff; */
-  background: #59e34c;
-  border: 1px solid transparent;
+  background: #fff;
+  border: 1px solid #59e34c;
 }
 
 .genric-btn.info:hover {
   /* color: #38a4ff; */
-  color: #59e34c;
+  color: #fff;
   /* border: 1px solid #38a4ff; */
   border: 1px solid #59e34c;
-  background: #fff;
+  background: #59e34c;
 }
 
 .genric-btn.info-border {
-  color: #38a4ff;
+  color: #59e34c;
+  background: #fff;
   /* border: 1px solid #38a4ff; */
   border: 1px solid #59e34c;
-  background: #fff;
 }
 
 .genric-btn.info-border:hover {
@@ -2227,6 +2229,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 414px) {
+    #mobile-nav-toggle {
+        top: 94px;
+    }
+}
+
 /* Mobile Nav Styling */
 #mobile-nav {
   position: fixed;
@@ -2322,7 +2330,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .success-msg {
@@ -2583,6 +2591,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*--------- End Services Area -------------*/
 /*--------- Start Facts Area -------------*/
+.facts-area {
+  padding: 120px;
+}
+
 .single-fact {
   text-align: center;
 }
@@ -2738,6 +2750,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio hover effect 2 */
 .single-portfolio:hover .thumb .overlay-bg {
   opacity: .85;
+}
+
+.col-sm-4 {
+  min-height: 580px !important;
+}
+
+@media (max-width: 700px) {
+    .col-sm-4 {
+        min-height: 540px !important;
+    }
 }
 
 .thumb .overlay-bg {
@@ -4251,6 +4273,7 @@ dl.accordion.time-line:before {
 /* =================================== */
 .contact-page-area {
   background: #f9f9ff;
+  padding-bottom: 60px;
 }
 
 .contact-page-area .map-wrap {
