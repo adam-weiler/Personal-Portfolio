@@ -38,7 +38,7 @@ $primary-font	: 'Poppins', sans-serif;
 
 $primary-color	: #8490ff;
 $title-color	: #222222;
-$text-color		: #777777;
+$text-color		: #565655;
 
 $white			: #fff;
 $offwhite		: #f9f9ff;
@@ -61,38 +61,38 @@ $black			: #222;
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #777777;
+  color: #565655;
   font-weight: 300;
 }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #777777;
+  color: #565655;
   opacity: 1;
   font-weight: 300;
 }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #777777;
+  color: #565655;
   opacity: 1;
   font-weight: 300;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #777777;
+  color: #565655;
   font-weight: 300;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #777777;
+  color: #565655;
   font-weight: 300;
 }
 
 body {
-  color: #777777;
+  color: #565655;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -952,7 +952,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
-  color: #777777;
+  color: #565655;
 }
 
 .button-area {
@@ -1374,7 +1374,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list li span {
   font-weight: 300;
-  color: #777777;
+  color: #565655;
 }
 
 .ordered-list-alpha li {
@@ -1387,7 +1387,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list-alpha li span {
   font-weight: 300;
-  color: #777777;
+  color: #565655;
 }
 
 .ordered-list-roman li {
@@ -1400,7 +1400,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list-roman li span {
   font-weight: 300;
-  color: #777777;
+  color: #565655;
 }
 
 .single-input {
@@ -3556,7 +3556,7 @@ dl.accordion.time-line:before {
 .post-content-area .single-post .date a,
 .post-content-area .single-post .view a,
 .post-content-area .single-post .comments a {
-  color: #777777;
+  color: #565655;
   margin-right: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -3647,7 +3647,7 @@ dl.accordion.time-line:before {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #777777;
+  color: #565655;
   border: none;
 }
 
@@ -3849,7 +3849,7 @@ dl.accordion.time-line:before {
 }
 
 .widget-wrap .post-category-widget .cat-list li a {
-  color: #777777;
+  color: #565655;
 }
 
 .widget-wrap .post-category-widget .cat-list li:hover {
@@ -4161,7 +4161,7 @@ dl.accordion.time-line:before {
 }
 
 .comments-area .comment {
-  color: #777777;
+  color: #565655;
 }
 
 .comments-area .btn-reply {
@@ -4222,7 +4222,7 @@ dl.accordion.time-line:before {
   border-radius: 0px;
   width: 100%;
   font-size: 13px;
-  color: #777777;
+  color: #565655;
 }
 
 .comment-form .form-control:focus {
@@ -4393,7 +4393,7 @@ dl.accordion.time-line:before {
 }
 
 .single-footer-widget ul li a {
-  color: #777777;
+  color: #565655;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -4443,43 +4443,43 @@ dl.accordion.time-line:before {
 .single-footer-widget ::-moz-selection {
   /* Code for Firefox */
   background-color: #191919 !important;
-  color: #777777;
+  color: #565655;
 }
 
 .single-footer-widget ::selection {
   background-color: #191919 !important;
-  color: #777777;
+  color: #565655;
 }
 
 .single-footer-widget ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #777777;
+  color: #565655;
   font-weight: 300;
 }
 
 .single-footer-widget :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #777777;
+  color: #565655;
   opacity: 1;
   font-weight: 300;
 }
 
 .single-footer-widget ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #777777;
+  color: #565655;
   opacity: 1;
   font-weight: 300;
 }
 
 .single-footer-widget :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #777777;
+  color: #565655;
   font-weight: 300;
 }
 
 .single-footer-widget ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #777777;
+  color: #565655;
   font-weight: 300;
 }
 
